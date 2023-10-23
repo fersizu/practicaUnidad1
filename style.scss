@@ -1,12 +1,12 @@
-@import 'variables.scss';
-$custom-colors: (
-    "amarillo": $amarillo-desierto,
-    "verde": $verde,
-    "azul": $azul,
-    "cafe": $cafe
-);
+@import "variables.scss";
 
-$theme-colors: map-merge($theme-colors, $custom-colors);
+$theme-colors: (
+    "primary": $azul,
+    "secondary": $amarillo,
+    "succes": $verde,
+    "dark": $cafe,
+    
+);
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -14,6 +14,7 @@ body {
     background-color: $azul ;
 }
 
-button {
-    color: $amarillo_desierto;
+h1 {
+    background-color: $amarillo;
 }
+
