@@ -1,5 +1,15 @@
-@import "./node_modules/bootstrap/scss/bootstrap.scss";
 @import 'variables.scss';
+$custom-colors: (
+    "amarillo": $amarillo-desierto,
+    "verde": $verde,
+    "azul": $azul,
+    "cafe": $cafe
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
 body {
     background-color: $azul ;
 }
