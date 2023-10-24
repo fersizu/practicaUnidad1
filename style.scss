@@ -16,6 +16,10 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body {
+    background-color: $amarillo;
+}
+
 .bg-column {
     background-image: url('media/sierra-transformed.jpg');
     background-size: cover;
@@ -23,3 +27,4 @@ h1 {
     height: 500px;
     
 }
+

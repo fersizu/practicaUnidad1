@@ -23681,6 +23681,10 @@ h1, .h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+body {
+  background-color: #fdebbc;
+}
+
 .bg-column {
   background-image: url("media/sierra-transformed.jpg");
   background-size: cover;
