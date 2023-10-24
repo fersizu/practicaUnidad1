@@ -10,11 +10,16 @@ $theme-colors: (
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
-body {
-    background-color: $azul ;
-}
+
 
 h1 {
-    background-color: $amarillo;
+    font-family: 'Times New Roman', Times, serif;
 }
 
+.bg-column {
+    background-image: url('media/sierra-transformed.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    
+}

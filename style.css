@@ -23677,10 +23677,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  background-color: #b5cfe3;
+h1, .h1 {
+  font-family: "Times New Roman", Times, serif;
 }
 
-h1, .h1 {
-  background-color: #fdebbc;
+.bg-column {
+  background-image: url("media/sierra-transformed.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
 }/*# sourceMappingURL=style.css.map */
