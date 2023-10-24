@@ -1,9 +1,35 @@
+@import "variables.scss";
+
+$theme-colors: (
+    "primary": $azul,
+    "secondary": $amarillo,
+    "succes": $verde,
+    "dark": $cafe,
+    
+);
+
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
-@import 'variables.scss';
-body {
-    background-color: $azul ;
+
+
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-button {
-    color: $amarillo_desierto;
+body {
+    background-color: $amarillo;
+}
+
+.bg-column {
+    background-image: url('media/sierra-transformed.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    
+}
+
+.container-fluid {
+    .row {
+        background-color: $cafe;
+    }
 }
