@@ -23690,4 +23690,8 @@ body {
   background-size: cover;
   background-position: center;
   height: 500px;
+}
+
+.container-fluid .row, .container-sm .row, .container-md .row, .container-lg .row, .container-xl .row, .container-xxl .row {
+  background-color: #948263;
 }/*# sourceMappingURL=style.css.map */
